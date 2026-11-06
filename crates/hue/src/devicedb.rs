@@ -69,6 +69,11 @@ fn make_product_data() -> BTreeMap<&'static str, SimpleProductData<'static>> {
         "929003053301_02" => SPD::signify("Hue Ensis down", PendantLong, "100b-11f"),
         "929004610402" => SPD::signify("Hue Flux strip light", HueLightstrip, "100b-118").with_gradient(GRADIENT_929004610402.clone()),
         "LCA001" => SPD::signify("Hue color lamp", SultanBulb, "100b-112"),
+        "LCA005" => SPD::signify("Hue color lamp", SultanBulb, "100b-114"),
+        //needs hardware revision
+        "LCA007" => SPD::signify("Hue color lamp", SultanBulb, "100b-114"),
+        // needs gardware attic ceieling fands
+        "LCA007" => SPD::signify("Hue color lamp", SultanBulb, "100b-114"),
         "LCB001" => SPD::signify("Hue color downlight", RecessedCeiling, "100b-114"),
         "LCB002" => SPD::signify("Hue color downlight", RecessedCeiling, "100b-114"),
         "LCD007" => SPD::signify("Hue color downlight", RecessedCeiling, "100b-114"),
@@ -87,6 +92,8 @@ fn make_product_data() -> BTreeMap<&'static str, SimpleProductData<'static>> {
         "LOM001" => SPD::signify("Hue Smart plug", Plug, "100b-115"),
         "LST002" => SPD::signify("Hue lightstrip plus", HueLightstrip, "100b-10f"),
         "LTO001" => SPD::signify("Hue filament bulb", VintageBulb, "100b-114"),
+        //needs hardware version attic desk lamp/ bedsie
+        "LTW004" => SPD::signify("Hue filament bulb", SultanBulb, "100b-114"),
         "LTW015" => SPD::signify("Hue ambiance lamp", SultanBulb, "100b-10c"),
         "LWA003" => SPD::signify("Hue white lamp", SultanBulb, "100b-114"),
         "LWA029" => SPD::signify("Hue white lamp", SultanBulb, "100b-114"),
