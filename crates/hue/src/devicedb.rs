@@ -78,8 +78,7 @@ fn make_product_data() -> BTreeMap<&'static str, SimpleProductData<'static>> {
         "LCD007" => SPD::signify("Hue color downlight", RecessedCeiling, "100b-114"),
         "LCE002" => SPD::signify("Hue color candle", CandleBulb, "100b-114"),
         "LCG002" => SPD::signify("Hue color spot", SpotBulb, "100b-114"),
-  // need hardware office desk
-        "LCT007" => SPD::signify("Hue color lamp", SultanBulb, "100b-10c"),
+        "LCT007" => SPD::signify("Hue color lamp", SultanBulb, "100b-104"),
         "LCT014" => SPD::signify("Hue color lamp", SultanBulb, "100b-10c"),
         "LCT015" => SPD::signify("Hue color lamp", SultanBulb, "100b-10c"),
         "LCT016" => SPD::signify("Hue color lamp", SultanBulb, "100b-10c"),
